@@ -1,7 +1,15 @@
 
 // import Parent from "./Components/Functional-Com/Parent"
 
-import Parent from "./Props/Child-Child/Parent"
+import A from "./State/Props-Drilling/A"
+
+// import A from "./State/Props-Drilling/A"
+
+// import A from "./State/State-Lifting/A"
+
+// import A from "./State/Local-State/Simple-Data/A"
+
+// import Parent from "./Props/Child-Child/Parent"
 
 // import Parent from "./Props/Child-Parent/Parent"
 
@@ -17,7 +25,9 @@ function App() {
       {/* <Jsx/> */}
       {/* <Parent/> */}
       {/* <Parent/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <A/> */}
+      <A/>
       
     </div>
     

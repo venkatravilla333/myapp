@@ -5,10 +5,11 @@ import Child2 from './Child2'
 function Parent() {
 
   var [name, setName] = useState('kohli')
-  
+
   function test(x) {
     setName(x)
   }
+  
   return (
     <div>
       <Child1 test={test} />
