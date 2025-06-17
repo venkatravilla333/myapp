@@ -1,7 +1,9 @@
 
 // import Parent from "./Components/Functional-Com/Parent"
 
-import A from "./State/Props-Drilling/A"
+import A from "./State/Global-State/Context-Api-UseState/A"
+
+// import A from "./State/Props-Drilling/A"
 
 // import A from "./State/Props-Drilling/A"
 
