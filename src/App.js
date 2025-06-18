@@ -3,6 +3,10 @@
 
 import A from "./State/Global-State/Context-Api-UseState/A"
 
+// import A from "./State/Local-State/Simple-Data/A"
+
+// import A from "./State/Global-State/Context-Api-UseState/A"
+
 // import A from "./State/Props-Drilling/A"
 
 // import A from "./State/Props-Drilling/A"
@@ -29,7 +33,8 @@ function App() {
       {/* <Parent/> */}
       {/* <Parent/> */}
       {/* <A/> */}
-      <A/>
+      {/* <A/> */}
+     <A/>
       
     </div>
     
