@@ -1,7 +1,9 @@
 
 // import Parent from "./Components/Functional-Com/Parent"
 
-import A from "./State/Global-State/Context-Api-UseState/A"
+import A from "./State/Global-State/Redux-Concept/React-Components/A"
+
+// import A from "./State/Global-State/Context-Api-UseState/A"
 
 // import A from "./State/Local-State/Simple-Data/A"
 
@@ -34,7 +36,8 @@ function App() {
       {/* <Parent/> */}
       {/* <A/> */}
       {/* <A/> */}
-     <A/>
+      {/* <A/> */}
+      <A/>
       
     </div>
     
