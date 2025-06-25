@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { decreaseCount, increaseCount } from '../Redux/Count/actionCreators'
 import { buyCake } from '../Redux/Cakes/actionCreators'
@@ -21,9 +21,14 @@ function K() {
   var dispatch = useDispatch()
 
 
-  var getData = () => {
+  // var getData = () => {
+  //   dispatch(fetchPosts())
+  // }
+  
+  useEffect(() => {
+    console.log('effct runs')
     dispatch(fetchPosts())
-  }
+  }, [])
 
   console.log('render')
   return (
@@ -35,13 +40,13 @@ function K() {
       <button onClick={() => dispatch(buyCake())}>buy cake</button>
       <br />
       <br />
-      <button onClick={getData}>get data</button>
+      {/* <button onClick={getData}>get data</button> */}
       {
         apiData.loading ? <h3>Loading</h3> : apiData.error ? <h3>{apiData.error}</h3>
           : apiData.posts.map((obj) => {
             return <div key={obj.id} style={{border: '2px solid, red', padding: '10px', margin: '10px'}}>
-              <h3>Title: {obj.title}</h3>
-              <h3>Body: {obj.body}</h3>
+              <h6>Title: {obj.title}</h6>
+              <h6>Body: {obj.body}</h6>
             </div>
           })
       }
