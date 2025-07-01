@@ -3,7 +3,12 @@
 
 import Login from "./CSS/CSS-Modules/Login"
 import Signup from "./CSS/CSS-Modules/Signup"
+import Count1 from "./Performance/Remove-Duplicate-Logic/Count1"
+import Count2 from "./Performance/Remove-Duplicate-Logic/Count2"
+import Count3 from "./Performance/Remove-Duplicate-Logic/Count3"
 import Parent from "./Portals/Parent"
+import Concept from "./Refs/Concept"
+import Domelement from "./Refs/Store-Dom-Element/Domelement"
 
 // import Login from "./CSS/External-CSS/Login"
 // import Signup from "./CSS/External-CSS/Signup"
@@ -82,7 +87,12 @@ function App() {
       <Signup/> */}
       {/* <Login />
       <Signup/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Count1 />
+      <Count2 />
+      <Count3/> */}
+      {/* <Concept/> */}
+      <Domelement/>
     </div>
     
   )
